@@ -1,6 +1,6 @@
 import { clearTables, installExtensions } from "./helpers/setup.js";
 import { describe, it, expect, beforeEach } from "vitest";
-import pool from "../db/db.js";
+import pool from "../src/db/db.js";
 
 describe("example-feature-unit-test", () => {
   //   beforeEach(() => {
@@ -10,7 +10,7 @@ describe("example-feature-unit-test", () => {
 
   it("should return true", async () => {
     const result = await pool.query("SELECT 1");
-  
+
     expect(result.command).toBe("SELECT");
   });
 });

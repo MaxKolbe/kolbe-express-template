@@ -29,6 +29,6 @@
     "moduleDetection": "force",
     "skipLibCheck": true
   },
-  "include": ["src"],
+  "include": ["src", "tests"],
   "exclude": ["drizzle.config.ts", "vitest.config.ts", "vitest.setup.ts", "tests"]
 }

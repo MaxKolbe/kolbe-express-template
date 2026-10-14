@@ -1,5 +1,5 @@
-import logger from "../../configs/logger.config.js";
-import pool from "../../db/db.js";
+import logger from "../../src/configs/logger.config.js";
+import pool from "../../src/db/db.js";
 
 // CLEAR TABLES
 export const clearTables = async () => {
